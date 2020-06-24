@@ -1,0 +1,30 @@
+{
+  "name": "todoproject",
+  "version": "1.0.0",
+  "description": "Backend Project to Create API for TODO app",
+  "main": " server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "Elvira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.0.1",
+    "mongoose": "^5.9.20",
+    "sinon": "^9.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
